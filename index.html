@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrzej Hryniewicz-personal Information</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/section.css">
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/tableContainer.css">
+    <script defer src="js/scrypt.js"></script>
+    <script type="text/javascript"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <div class="container">
+      <nav>
+        <ul class="navigation">
+          <li class="navigation__item">
+            <a class="navigation__link" href="#">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#about-me">About me</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#my-passion">My Passion</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="#achivements">Achivements</a>
+          </li>
+
+          <li class="navigation__item">
+            <a class="navigation__link" href="#trophies"
+              >Clash Royale Trophies Won</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <header class="section section--centered">
+          <img
+            class="section__image"
+            width="200"
+            height="300"
+            src="images/małe.jpg"
+            alt="Andrzej Hryniewicz"
+          />
+          <h1 class="section__header">Andrzej Hryniewicz</h1>
+        </header>
+        <section id="about-me" class="section">
+          <h2 class="section__subHeader">About Me</h2>
+          <p>
+            I'm a passionate enthusiast of <strong>cryptocurrencies</strong>,
+            computer games and astronomy. I love to explore the fascinating
+            worlds of digital currencies, virtual realities and celestial
+            bodies. I'm always eager to learn new things and share my knowledge
+            with others.
+          </p>
+        </section>
+
+        <section id="my-passion">
+          <h2 class="section__subHeader">My Passion</h2>
+          <p>
+            Whether it's trading Bitcoin, playing Cyberpunk 2077 or observing
+            the night sky, I enjoy every moment of it. Welcome to my website,
+            where you can find more about me and my interests.
+          </p>
+        </section>
+
+        <section id="achivements" class="section">
+          <h2 class="section__subHeader">Achivements</h2>
+
+          <div class="tableContainer">
+            <table class="table">
+              <caption class="table__caption">
+                My fauvorite Games
+              </caption>
+              <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="col">Game</th>
+                <th class="table__cell  table__cell--header" scope="col">Hours</th>
+                <th class="table__cell  table__cell--header" scope="col">Trophy</th>
+              </tr>
+
+              <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="row">Diablo 3</th>
+                <td class="table__cell ">2157</td>
+                <td class="table__cell ">Platinum</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="row">PubG</th>
+                <td class="table__cell ">1024</td>
+                <td class="table__cell ">Platinum</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="row">
+                  Horizon Zero Down
+                </th>
+                <td class="table__cell ">354</td>
+                <td class="table__cell ">24% to Platinum</td>
+              </tr>
+              <tr class="table__row">
+                <th class="table__cell  table__cell--header" scope="row">
+                  Cyberpunk 2077
+                </th>
+                <td class="table__cell ">234</td>
+                <td class="table__cell ">43% to Platinum</td>
+              </tr>
+            </table>
+
+            <section id="trophies" class="section section--centered">
+              <h2 class="subHeader">Clash Royale Trophies Won</h2>
+              <img
+                class="section__trophyImage"
+                width="400"
+                height="400"
+                src="images/clash_royale.png"
+                alt="Trophies"
+              />
+
+              <p class="section__paragraph">
+                <button class="section__button js-changeBackgroundButton">
+                  <span class="js-nextColorName">Light</span> Mode
+                </button>
+              </p>
+
+              <footer class="footer">Made By Andrzej Hryniewicz</footer>
+            </section>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

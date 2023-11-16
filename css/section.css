@@ -1,0 +1,44 @@
+.section {
+  padding: 25px 0;
+}
+.section--centered {
+  text-align: center;
+}
+
+.section__header {
+  margin: 0;
+  color: rgb(10, 95, 95);
+  font-weight: normal;
+}
+
+.section__subHeader {
+  margin-top: 0;
+  color: rgb(10, 95, 95);
+  font-weight: normal;
+}
+
+.section__paragraph {
+  line-height: 1.5;
+}
+
+.section__button {
+  background-color: rgb(10, 95, 95);
+  color: white;
+  padding: 20px;
+  border: none;
+  font-family: "Monserrat" sans-serif;
+  font-size: 16px;
+}
+.section__button:hover {
+  background-color: rgb(26, 109, 109);
+}
+
+.section__image {
+  border-radius: 20%;
+  margin-bottom: 10px;
+  box-shadow: 5px 5px 8px #aaa;
+}
+
+.section__trophyImage {
+  margin-bottom: 10px;
+}
