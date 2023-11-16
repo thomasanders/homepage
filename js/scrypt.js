@@ -1,12 +1,28 @@
-let changeBackgroundButton = document.querySelector(
-  ".js-changeBackgroundButton"
-);
-let body = document.documentElement;
-let nextColorName = document.querySelector(".js-nextColorName");
+{
+  const welcome = () => {
+    console.log("May the force be with You");
+  };
 
-changeBackgroundButton.addEventListener("click", () => {
-  body.classList.toggle("body--dark");
-  nextColorName.innerText = body.classList.contains("body--dark")
-    ? "Light"
-    : "Dark";
-});
+  const toggleBackground = () => {
+    const body = document.documentElement;
+    const nextColorName = document.querySelector(".js-nextColorName");
+
+    body.classList.toggle("body--dark");
+    nextColorName.innerText = body.classList.contains("body--dark")
+      ? "Light"
+      : "Dark";
+  };
+
+  let body = document.documentElement;
+  let nextColorName = document.querySelector(".js-nextColorName");
+
+  const init = () => {
+    const changeBackgroundButton = document.querySelector(
+      ".js-changeBackgroundButton"
+    );
+    changeBackgroundButton.addEventListener("click", toggleBackground);
+
+    welcome();
+  };
+  init();
+}
