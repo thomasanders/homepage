@@ -13,9 +13,6 @@
       : "Dark";
   };
 
-  let body = document.documentElement;
-  let nextColorName = document.querySelector(".js-nextColorName");
-
   const init = () => {
     const changeBackgroundButton = document.querySelector(
       ".js-changeBackgroundButton"
